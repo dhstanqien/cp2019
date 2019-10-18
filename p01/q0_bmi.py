@@ -8,7 +8,7 @@ bmi = weight / (height * height)
 # output result
 print("BMI = {0:.2f}".format(bmi))
 if bmi < 18.5:
-    print("Please eat more")
+    print("Please have a balanced diet")
 elif 18.5 <= bmi < 23:
     print("Low risk")
 elif 23 <= bmi < 27.5:
